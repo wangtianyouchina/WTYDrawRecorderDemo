@@ -7,7 +7,8 @@
 //
 
 #import "ViewController.h"
-
+#import "LuWeiKeVideo.pbobjc.h"
+#import "WTYDrawingBoardView.h"
 @interface ViewController ()
 
 @end
@@ -16,7 +17,23 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    SMPPackageData *root = [[SMPPackageData alloc] init];
+    root.pageStartIndex = 10;
+    root.imageIdmax = 10;
+    root.totalTime = 1;
+    NSLog(@"---%d",root.pageStartIndex);
+    NSData *data = [root data];
+    NSError *error = nil;
+    SMPPackageData *pageData = [SMPPackageData parseFromData:data error:&error];
+    if (error) {
+        NSLog(@"%@",error);
+    }
+    NSLog(@"====%d",pageData.pageStartIndex);
+    WTYDrawingBoardView *boardView = [[WTYDrawingBoardView alloc] initWithFrame:CGRectMake(0, 40, 300, 300)];
+    [self.view addSubview:boardView];
+    
+    
 }
 
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB96E21F3D2632ACCF88BA2F /* libPods-WTYDrawRecorderDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81425B76AAE7CE603AE03DF6 /* libPods-WTYDrawRecorderDemo.a */; };
 		E11BD4621F282CDC0007A1CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E11BD4611F282CDC0007A1CC /* main.m */; };
 		E11BD4651F282CDC0007A1CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E11BD4641F282CDC0007A1CC /* AppDelegate.m */; };
 		E11BD4681F282CDC0007A1CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E11BD4671F282CDC0007A1CC /* ViewController.m */; };
@@ -15,6 +16,16 @@
 		E11BD4701F282CDC0007A1CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E11BD46E1F282CDC0007A1CC /* LaunchScreen.storyboard */; };
 		E11BD47B1F282CDC0007A1CC /* WTYDrawRecorderDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E11BD47A1F282CDC0007A1CC /* WTYDrawRecorderDemoTests.m */; };
 		E11BD4861F282CDC0007A1CC /* WTYDrawRecorderDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E11BD4851F282CDC0007A1CC /* WTYDrawRecorderDemoUITests.m */; };
+		E11BD50D1F2874EA0007A1CC /* LuWeiKeVideo.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = E11BD50C1F2874EA0007A1CC /* LuWeiKeVideo.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E1F0FA081F29CCD4008E7B80 /* WTYDrawingBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F0FA071F29CCD4008E7B80 /* WTYDrawingBoardView.m */; };
+		E1F0FA0B1F29CCF9008E7B80 /* WTYDrawingCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F0FA0A1F29CCF9008E7B80 /* WTYDrawingCanvasView.m */; };
+		E1F0FA0E1F29CD0F008E7B80 /* WTYDrawingBackView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F0FA0D1F29CD0F008E7B80 /* WTYDrawingBackView.m */; };
+		E1F0FA171F29CFEE008E7B80 /* WTYPenTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F0FA161F29CFEE008E7B80 /* WTYPenTool.m */; };
+		E1F0FA1A1F29D070008E7B80 /* WTYBaseTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F0FA191F29D070008E7B80 /* WTYBaseTool.m */; };
+		E1F0FA1D1F29DDE4008E7B80 /* WTYBaseCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F0FA1C1F29DDE4008E7B80 /* WTYBaseCommand.m */; };
+		E1F0FA201F29E11E008E7B80 /* WTYCommandManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F0FA1F1F29E11E008E7B80 /* WTYCommandManager.m */; };
+		E1F0FA231F29E1FE008E7B80 /* WTYCommandPen.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F0FA221F29E1FE008E7B80 /* WTYCommandPen.m */; };
+		E1F0FA251F29E99C008E7B80 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1F0FA241F29E99C008E7B80 /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +46,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		81425B76AAE7CE603AE03DF6 /* libPods-WTYDrawRecorderDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WTYDrawRecorderDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A398917D243794872C9303B7 /* Pods-WTYDrawRecorderDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WTYDrawRecorderDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WTYDrawRecorderDemo/Pods-WTYDrawRecorderDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		B490D7E3122B517657EF962A /* Pods-WTYDrawRecorderDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WTYDrawRecorderDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WTYDrawRecorderDemo/Pods-WTYDrawRecorderDemo.release.xcconfig"; sourceTree = "<group>"; };
 		E11BD45D1F282CDC0007A1CC /* WTYDrawRecorderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WTYDrawRecorderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E11BD4611F282CDC0007A1CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E11BD4631F282CDC0007A1CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +65,25 @@
 		E11BD4811F282CDC0007A1CC /* WTYDrawRecorderDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WTYDrawRecorderDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E11BD4851F282CDC0007A1CC /* WTYDrawRecorderDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTYDrawRecorderDemoUITests.m; sourceTree = "<group>"; };
 		E11BD4871F282CDC0007A1CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E11BD50B1F2874EA0007A1CC /* LuWeiKeVideo.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LuWeiKeVideo.pbobjc.h; sourceTree = "<group>"; };
+		E11BD50C1F2874EA0007A1CC /* LuWeiKeVideo.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LuWeiKeVideo.pbobjc.m; sourceTree = "<group>"; };
+		E1F0FA061F29CCD4008E7B80 /* WTYDrawingBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTYDrawingBoardView.h; sourceTree = "<group>"; };
+		E1F0FA071F29CCD4008E7B80 /* WTYDrawingBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTYDrawingBoardView.m; sourceTree = "<group>"; };
+		E1F0FA091F29CCF9008E7B80 /* WTYDrawingCanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTYDrawingCanvasView.h; sourceTree = "<group>"; };
+		E1F0FA0A1F29CCF9008E7B80 /* WTYDrawingCanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTYDrawingCanvasView.m; sourceTree = "<group>"; };
+		E1F0FA0C1F29CD0F008E7B80 /* WTYDrawingBackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTYDrawingBackView.h; sourceTree = "<group>"; };
+		E1F0FA0D1F29CD0F008E7B80 /* WTYDrawingBackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTYDrawingBackView.m; sourceTree = "<group>"; };
+		E1F0FA151F29CFEE008E7B80 /* WTYPenTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTYPenTool.h; sourceTree = "<group>"; };
+		E1F0FA161F29CFEE008E7B80 /* WTYPenTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTYPenTool.m; sourceTree = "<group>"; };
+		E1F0FA181F29D070008E7B80 /* WTYBaseTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTYBaseTool.h; sourceTree = "<group>"; };
+		E1F0FA191F29D070008E7B80 /* WTYBaseTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTYBaseTool.m; sourceTree = "<group>"; };
+		E1F0FA1B1F29DDE4008E7B80 /* WTYBaseCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTYBaseCommand.h; sourceTree = "<group>"; };
+		E1F0FA1C1F29DDE4008E7B80 /* WTYBaseCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTYBaseCommand.m; sourceTree = "<group>"; };
+		E1F0FA1E1F29E11E008E7B80 /* WTYCommandManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTYCommandManager.h; sourceTree = "<group>"; };
+		E1F0FA1F1F29E11E008E7B80 /* WTYCommandManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTYCommandManager.m; sourceTree = "<group>"; };
+		E1F0FA211F29E1FE008E7B80 /* WTYCommandPen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTYCommandPen.h; sourceTree = "<group>"; };
+		E1F0FA221F29E1FE008E7B80 /* WTYCommandPen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTYCommandPen.m; sourceTree = "<group>"; };
+		E1F0FA241F29E99C008E7B80 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +91,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1F0FA251F29E99C008E7B80 /* CoreGraphics.framework in Frameworks */,
+				DB96E21F3D2632ACCF88BA2F /* libPods-WTYDrawRecorderDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +113,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D0F0045A4882D6E8D8062754 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A398917D243794872C9303B7 /* Pods-WTYDrawRecorderDemo.debug.xcconfig */,
+				B490D7E3122B517657EF962A /* Pods-WTYDrawRecorderDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E11BD4541F282CDC0007A1CC = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +129,8 @@
 				E11BD4791F282CDC0007A1CC /* WTYDrawRecorderDemoTests */,
 				E11BD4841F282CDC0007A1CC /* WTYDrawRecorderDemoUITests */,
 				E11BD45E1F282CDC0007A1CC /* Products */,
+				D0F0045A4882D6E8D8062754 /* Pods */,
+				EDDF2187C1337955DADC8491 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +151,10 @@
 				E11BD4641F282CDC0007A1CC /* AppDelegate.m */,
 				E11BD4661F282CDC0007A1CC /* ViewController.h */,
 				E11BD4671F282CDC0007A1CC /* ViewController.m */,
+				E11BD50B1F2874EA0007A1CC /* LuWeiKeVideo.pbobjc.h */,
+				E11BD50C1F2874EA0007A1CC /* LuWeiKeVideo.pbobjc.m */,
+				E1F0FA051F29CC78008E7B80 /* drawModel */,
+				E1F0FA041F29CC62008E7B80 /* drawView */,
 				E11BD4691F282CDC0007A1CC /* Main.storyboard */,
 				E11BD46C1F282CDC0007A1CC /* Assets.xcassets */,
 				E11BD46E1F282CDC0007A1CC /* LaunchScreen.storyboard */,
@@ -140,6 +190,45 @@
 			path = WTYDrawRecorderDemoUITests;
 			sourceTree = "<group>";
 		};
+		E1F0FA041F29CC62008E7B80 /* drawView */ = {
+			isa = PBXGroup;
+			children = (
+				E1F0FA061F29CCD4008E7B80 /* WTYDrawingBoardView.h */,
+				E1F0FA071F29CCD4008E7B80 /* WTYDrawingBoardView.m */,
+				E1F0FA091F29CCF9008E7B80 /* WTYDrawingCanvasView.h */,
+				E1F0FA0A1F29CCF9008E7B80 /* WTYDrawingCanvasView.m */,
+				E1F0FA0C1F29CD0F008E7B80 /* WTYDrawingBackView.h */,
+				E1F0FA0D1F29CD0F008E7B80 /* WTYDrawingBackView.m */,
+				E1F0FA151F29CFEE008E7B80 /* WTYPenTool.h */,
+				E1F0FA161F29CFEE008E7B80 /* WTYPenTool.m */,
+				E1F0FA181F29D070008E7B80 /* WTYBaseTool.h */,
+				E1F0FA191F29D070008E7B80 /* WTYBaseTool.m */,
+				E1F0FA1B1F29DDE4008E7B80 /* WTYBaseCommand.h */,
+				E1F0FA1C1F29DDE4008E7B80 /* WTYBaseCommand.m */,
+				E1F0FA211F29E1FE008E7B80 /* WTYCommandPen.h */,
+				E1F0FA221F29E1FE008E7B80 /* WTYCommandPen.m */,
+				E1F0FA1E1F29E11E008E7B80 /* WTYCommandManager.h */,
+				E1F0FA1F1F29E11E008E7B80 /* WTYCommandManager.m */,
+			);
+			path = drawView;
+			sourceTree = "<group>";
+		};
+		E1F0FA051F29CC78008E7B80 /* drawModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = drawModel;
+			sourceTree = "<group>";
+		};
+		EDDF2187C1337955DADC8491 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1F0FA241F29E99C008E7B80 /* CoreGraphics.framework */,
+				81425B76AAE7CE603AE03DF6 /* libPods-WTYDrawRecorderDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +236,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E11BD48A1F282CDC0007A1CC /* Build configuration list for PBXNativeTarget "WTYDrawRecorderDemo" */;
 			buildPhases = (
+				6899595EF799B79024B01CB1 /* [CP] Check Pods Manifest.lock */,
 				E11BD4591F282CDC0007A1CC /* Sources */,
 				E11BD45A1F282CDC0007A1CC /* Frameworks */,
 				E11BD45B1F282CDC0007A1CC /* Resources */,
+				3215EB25CBE1A9BCC82699B0 /* [CP] Embed Pods Frameworks */,
+				88765BC04794126D65206FD6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -271,14 +363,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3215EB25CBE1A9BCC82699B0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WTYDrawRecorderDemo/Pods-WTYDrawRecorderDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6899595EF799B79024B01CB1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		88765BC04794126D65206FD6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WTYDrawRecorderDemo/Pods-WTYDrawRecorderDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E11BD4591F282CDC0007A1CC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1F0FA231F29E1FE008E7B80 /* WTYCommandPen.m in Sources */,
+				E1F0FA0B1F29CCF9008E7B80 /* WTYDrawingCanvasView.m in Sources */,
 				E11BD4681F282CDC0007A1CC /* ViewController.m in Sources */,
+				E1F0FA081F29CCD4008E7B80 /* WTYDrawingBoardView.m in Sources */,
+				E1F0FA1D1F29DDE4008E7B80 /* WTYBaseCommand.m in Sources */,
+				E1F0FA0E1F29CD0F008E7B80 /* WTYDrawingBackView.m in Sources */,
+				E1F0FA171F29CFEE008E7B80 /* WTYPenTool.m in Sources */,
+				E1F0FA201F29E11E008E7B80 /* WTYCommandManager.m in Sources */,
+				E1F0FA1A1F29D070008E7B80 /* WTYBaseTool.m in Sources */,
 				E11BD4651F282CDC0007A1CC /* AppDelegate.m in Sources */,
 				E11BD4621F282CDC0007A1CC /* main.m in Sources */,
+				E11BD50D1F2874EA0007A1CC /* LuWeiKeVideo.pbobjc.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +576,7 @@
 		};
 		E11BD48B1F282CDC0007A1CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A398917D243794872C9303B7 /* Pods-WTYDrawRecorderDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 56DB234WRR;
@@ -439,6 +589,7 @@
 		};
 		E11BD48C1F282CDC0007A1CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B490D7E3122B517657EF962A /* Pods-WTYDrawRecorderDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 56DB234WRR;
@@ -518,6 +669,7 @@
 				E11BD48C1F282CDC0007A1CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E11BD48D1F282CDC0007A1CC /* Build configuration list for PBXNativeTarget "WTYDrawRecorderDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +678,7 @@
 				E11BD48F1F282CDC0007A1CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E11BD4901F282CDC0007A1CC /* Build configuration list for PBXNativeTarget "WTYDrawRecorderDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +687,7 @@
 				E11BD4921F282CDC0007A1CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

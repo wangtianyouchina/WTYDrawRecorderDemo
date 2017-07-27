@@ -1,0 +1,15 @@
+PODS:
+  - mp3lame-for-ios (0.1.1)
+  - Protobuf (3.3.0)
+
+DEPENDENCIES:
+  - mp3lame-for-ios (~> 0.1.1)
+  - Protobuf (~> 3.3.0)
+
+SPEC CHECKSUMS:
+  mp3lame-for-ios: 4daeb5686885be66438154050e3fe975d4ee1f07
+  Protobuf: d582fecf68201eac3d79ed61369ef45734394b9c
+
+PODFILE CHECKSUM: 8ede21bfadb7ae9dc91eac4f94f63bc2108aced1
+
+COCOAPODS: 1.2.1

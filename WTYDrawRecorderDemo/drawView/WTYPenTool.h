@@ -1,0 +1,13 @@
+//
+//  WTYPenTool.h
+//  WTYDrawRecorderDemo
+//
+//  Created by 王天佑 on 2017/7/27.
+//  Copyright © 2017年 wang.tianyou. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+#import "WTYBaseTool.h"
+@interface WTYPenTool : WTYBaseTool
+@property(nonatomic,strong) UIView *view;
+@end
